@@ -39,7 +39,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1002267696898')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 'https://t.me/CINEMAUNIVERSE13'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002267696898')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', 'https://t.me/CINEMAUNIVERSE13'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/CINEMAUNIVERSE13') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
